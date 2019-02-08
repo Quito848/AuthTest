@@ -11,7 +11,6 @@ const User = require('.\\models\\User');
 const pool = require('.\\config\\postgres');
 const bcrypt = require('bcrypt');
 const passportLocalPostgres = require('passport-local-postgres')(pool);
-//fdsajklfjdsalkfasjd
 const app = express();
 
 // view engine setup
