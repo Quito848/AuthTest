@@ -6,7 +6,6 @@ const logger = require('morgan');
 const bodyParser = require('body-parser');
 const passport = require('passport');
 const LocalStrategy = require('passport-local').Strategy;
-const indexRouter = require('./routes/route');
 const User = require('.\\models\\User');
 const pool = require('.\\config\\postgres');
 const bcrypt = require('bcrypt');
